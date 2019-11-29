@@ -18,7 +18,7 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     height: 100px;
-    background: red;
+    background: white;
 }
 
 .logo {
@@ -40,11 +40,17 @@ h1 {
 }
 
 .aside {
+    float: left;
+    /* border: 1px solid #ccc; */
+    background-color: #a4d0e9;
     width: 30%;
+    height: 500px;
 }
 
 .section {
     width: 70%;
+    height: 500px;
+    background-color: #e4a1d9;
 }
 
 button {
@@ -64,4 +70,14 @@ button {
 .number {
     display: flex;
     justify-content: center;
+    background-color: #a4d0e9;
+    height: auto;
+}
+
+button:hover {
+    background-color: #e4a1d9;
+}
+
+button.active {
+    background-color: #ccc;
 }
