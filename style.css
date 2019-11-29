@@ -17,7 +17,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 100px;
+    height: 150px;
     background: white;
 }
 
@@ -41,16 +41,16 @@ h1 {
 
 .aside {
     float: left;
-    /* border: 1px solid #ccc; */
     background-color: #a4d0e9;
     width: 30%;
     height: 500px;
+    border: 5px black;
 }
 
 .section {
     width: 70%;
     height: 500px;
-    background-color: #e4a1d9;
+    background-color: #f3d1ed;
 }
 
 button {
@@ -59,12 +59,20 @@ button {
     color: black;
     padding: 22px 16px;
     width: 100%;
-    border: none;
+    /* border: none; */
     outline: none;
     text-align: left;
-    /* cursor: pointer;
-    transition: 0.3s; */
+    transition: 0.2s;
     font-size: 17px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
 }
 
 .number {
@@ -72,12 +80,19 @@ button {
     justify-content: center;
     background-color: #a4d0e9;
     height: auto;
+    width: 30%;
+}
+
+.block {
+    height: auto;
+    width: 70%;
+    background-color: #f3d1ed;
 }
 
 button:hover {
-    background-color: #e4a1d9;
+    background-color: #f3d1ed;
 }
 
 button.active {
-    background-color: #ccc;
+    background-color: #f3d1ed;
 }
