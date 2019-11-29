@@ -4,4 +4,8 @@ function openContent(numberItem) {
     for (i = 0; i < item.length; i++) {
         item[i].style.display = "none";
     }
+    item0 = document.getElementsByClassName("item0");
+    for (i = 0; i < item0.length; i++) {
+        item0[i].className = item0[i].className.replace(" active", "");
+    }
 }
