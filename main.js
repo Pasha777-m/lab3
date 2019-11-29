@@ -8,4 +8,7 @@ function openContent(numberItem) {
     for (i = 0; i < item0.length; i++) {
         item0[i].className = item0[i].className.replace(" active", "");
     }
+    document.getElementById(numberItem).style.display = "block";
+    evt.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
