@@ -32,3 +32,17 @@ h1 {
     display: flex;
     align-items: center;
 }
+
+.main {
+    background: lime;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    width: 30%;
+}
+
+.section {
+    width: 70%;
+}
